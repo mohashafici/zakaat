@@ -2,23 +2,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import SignUp from './pages/SignUp';
 import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
 import ZakaatCalculator from './components/ZakaatCalculator';
+import AboutZakaat from './pages/AboutZakaat';
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/signin" element={<SignIn />} />
-          <Route path="/calculator" element={<ZakaatCalculator />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/calculator" element={<ZakaatCalculator />} />
+        <Route path="/about" element={<AboutZakaat />} />
+      </Routes>
     </Router>
   );
-}
+};
 
 export default App;

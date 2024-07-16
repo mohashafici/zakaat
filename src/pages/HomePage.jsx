@@ -23,6 +23,9 @@ const HomePage = () => {
         <Link to="/calculator" className="px-8 py-4 bg-green-500 text-2xl font-semibold rounded-lg hover:bg-green-700 transition transform hover:scale-110 shadow-lg">
           Get Started
         </Link>
+        <Link to="/about" className="mt-4 inline-block px-4 py-2 bg-gray-500 text-lg font-semibold rounded-lg hover:bg-gray-700 transition transform hover:scale-105 shadow-lg">
+          About Zakaat Calculator
+        </Link>
       </div>
     </div>
   );
