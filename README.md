@@ -1,11 +1,10 @@
 # React & Firebase Zakaat Calculator App
 
-
 A simple and intuitive Zakaat Calculator application built with React for the frontend and Firebase for the backend. This project demonstrates how to sign up, sign in, and calculate Zakaat using mock data and Firebase for user authentication.
 
 ## Features
 
-- **User Authentication**: Sign up and login using Firebase Authentication..
+- **User Authentication**: Sign up and login using Firebase Authentication.
 - **Zakaat Calculation**: Calculate your Zakaat with an easy-to-use form.
 - **Responsive Design**: Works on both desktop and mobile devices.
 - **Firebase Hosting**: Hosted on Firebase for seamless deployment and access.
@@ -21,33 +20,26 @@ A simple and intuitive Zakaat Calculator application built with React for the fr
 - **React Toastify**: For user-friendly notifications.
 - **Tailwind CSS**: For styling the application.
 
-
 ## Screenshots
 
-## Home Page Screen
+### Home Page Screen
 
-<img src="./HomePage.PNG" alt="Home Page" width="400">
+<img src="./Screenshots/HomePage.PNG" alt="Home Page" width="400">
 
-## Sign In Screen
+### Sign In Screen
 
-<img src="./SignIn.PNG" alt="Login Page" width="400">
+<img src="./Screenshots/SignIn.PNG" alt="Login Page" width="400">
 
-## Sign Up Page
+### Sign Up Page
 
-<img src="./SignUp.PNG" alt="Register Page" width="400">
-
-
-
+<img src="./Screenshots/SignUp.PNG" alt="Register Page" width="400">
 
 ## Demo
 
 Check out the live demo of the app here: [Live Demo](https://test-fe4d7.web.app/)
 
-
-
 ## Getting Started
 
-Getting Started
 Follow these instructions to set up the project locally.
 
 ### Prerequisites
@@ -61,8 +53,3 @@ Follow these instructions to set up the project locally.
    ```bash
    git clone https://github.com/mohashafici/zakaat.git
    cd zakaat
-
-bash
-Copy code
-npm start
-Open your browser and go to http://localhost:3000.
